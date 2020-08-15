@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.myride.common.entity.TestModel;
 
 
-public interface TestModelRepository extends JpaRepository<TestModel, Integer>{
+public interface TestRepository extends JpaRepository<TestModel, Integer>{
 
 }
